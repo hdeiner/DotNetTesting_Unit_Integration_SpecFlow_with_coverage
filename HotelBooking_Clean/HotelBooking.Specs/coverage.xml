@@ -1,0 +1,2035 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.7.922.0">
+  <Summary numSequencePoints="98" visitedSequencePoints="77" numBranchPoints="29" visitedBranchPoints="22" sequenceCoverage="78.57" branchCoverage="75.86" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="6" numClasses="6" visitedMethods="22" numMethods="29" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="31-91-3F-A8-9B-D4-0A-8E-95-6F-FE-3F-A5-C5-99-F7-B1-CD-B9-CB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Private.CoreLib.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Private.CoreLib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CF-4F-C3-E6-6B-4E-5E-64-C7-7D-48-1D-D5-69-95-F0-CC-F5-02-24">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\dotnet.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:18:58Z</ModuleTime>
+      <ModuleName>dotnet</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C0-15-8B-0D-FD-A9-BE-A3-71-7B-D5-92-9A-E4-07-F5-72-69-98-77">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Runtime.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="46-99-24-E2-FA-30-F2-81-E7-B8-64-95-6E-EA-02-4E-A8-23-EF-BF">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.DotNet.Cli.Utils.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:02Z</ModuleTime>
+      <ModuleName>Microsoft.DotNet.Cli.Utils</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="01-D9-37-96-B0-DB-53-97-CA-E7-92-F3-9B-2A-CB-40-A8-38-B1-D8">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Runtime.Extensions.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Runtime.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4E-65-34-65-66-6D-35-84-9C-E2-32-B1-34-4C-2F-5F-01-36-5E-BF">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Runtime.Loader.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Runtime.Loader</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="41-86-69-26-EB-B1-10-64-E6-4F-F3-11-3B-32-B6-3E-0A-22-BC-5F">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.DotNet.PlatformAbstractions.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:04Z</ModuleTime>
+      <ModuleName>Microsoft.DotNet.PlatformAbstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="78-00-DD-6C-E1-3F-49-CF-FD-E0-7B-95-0C-3F-2A-38-56-C2-EF-DD">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Runtime.InteropServices.RuntimeInformation.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Runtime.InteropServices.RuntimeInformation</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-4C-14-57-4C-37-DF-A6-6F-DE-C9-85-12-F5-79-03-D9-48-F8-B0">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Runtime.InteropServices.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Runtime.InteropServices</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DB-4B-9B-F6-99-74-D6-AF-6F-2F-2D-D0-F4-6E-57-2C-53-A6-44-28">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Threading.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Threading</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A5-32-FF-F5-19-DE-59-A1-5C-60-98-9E-FA-D0-BB-D9-85-34-AC-9B">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.IO.FileSystem.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.IO.FileSystem</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BF-D9-4F-7D-0B-51-E0-79-9F-5B-65-12-9D-F0-1F-81-12-1C-61-BF">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:19:04Z</ModuleTime>
+      <ModuleName>System.Text.Encoding.CodePages</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E1-54-25-BF-80-76-A9-FD-B5-D4-F9-D4-03-9C-2C-8E-A9-FB-CF-E8">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Collections.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:20Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A3-29-54-C5-82-2E-83-56-49-66-03-52-6F-3C-DB-07-BD-3B-4C-CE">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Collections.Concurrent.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:20Z</ModuleTime>
+      <ModuleName>System.Collections.Concurrent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3B-CF-92-92-FB-92-6A-F3-F1-D7-0F-E6-8B-82-C9-CF-48-E7-17-AD">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Threading.Thread.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Threading.Thread</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6C-3E-C2-31-8E-8C-52-EF-DA-D9-21-38-C6-9A-30-E4-E3-35-E5-47">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.DotNet.Configurer.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:04Z</ModuleTime>
+      <ModuleName>Microsoft.DotNet.Configurer</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="12-3F-55-EA-6F-E2-3A-85-D3-A2-FF-81-5B-F4-60-FB-5C-3A-26-08">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.DotNet.Cli.CommandLine.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:02Z</ModuleTime>
+      <ModuleName>Microsoft.DotNet.Cli.CommandLine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="53-85-76-BD-BB-E8-8F-29-89-3A-2D-34-7B-F4-F1-A0-98-03-3F-5D">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Diagnostics.Process.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Process</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-54-C6-50-19-22-19-5D-31-9D-CA-FD-2A-DC-BA-FA-E6-2E-DF-5D">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.DotNet.InternalAbstractions.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:04Z</ModuleTime>
+      <ModuleName>Microsoft.DotNet.InternalAbstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A1-E9-C7-5F-0A-64-79-4A-5E-2A-B6-6C-6E-23-1A-9F-AA-6D-F0-18">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Linq.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FF-37-14-BC-D5-DC-9F-99-3D-89-38-A2-75-5F-26-FB-D8-68-08-38">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\NuGet.Frameworks.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:22:20Z</ModuleTime>
+      <ModuleName>NuGet.Frameworks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EF-B6-E9-D8-72-C5-BA-FD-78-6D-8B-A4-CB-A3-75-AB-71-F8-96-52">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\netstandard.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>netstandard</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4A-38-F9-9C-83-95-43-D7-C8-97-A5-38-6A-BA-CE-D8-47-FB-8A-6A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Console.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F4-C3-4E-4C-FA-12-F4-82-0F-30-0A-66-DD-78-CC-2C-ED-7A-C4-49">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.IO.FileSystem.Primitives.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.IO.FileSystem.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="37-7D-65-EF-AD-C4-E5-0A-76-6D-93-36-33-8B-F5-86-18-20-D6-46">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Memory.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Memory</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="87-C3-A7-53-F3-2D-DC-CA-02-42-D2-A4-0B-41-63-BF-26-B7-62-2A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.IO.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.IO</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="14-06-09-C8-50-24-44-54-C6-74-54-2F-0E-22-D1-62-42-BD-6E-9F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Text.Encoding.Extensions.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Text.Encoding.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="42-6B-95-4D-B2-D0-F4-4E-9B-82-C7-AB-34-C9-D6-C5-E6-A6-3F-E6">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.ApplicationInsights.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:00Z</ModuleTime>
+      <ModuleName>Microsoft.ApplicationInsights</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6E-FC-1C-DF-31-0E-70-3A-F9-9C-10-C6-97-3B-A7-31-21-6F-07-51">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Reflection.Extensions.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Reflection.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BE-AF-51-3A-F4-42-C4-AF-6A-12-00-14-52-96-92-F5-3A-35-70-9D">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Reflection.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="95-E2-CF-CC-99-2B-EA-69-F8-4D-89-A7-7A-2D-CF-45-F1-DE-F4-ED">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Xml.XDocument.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Xml.XDocument</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C3-8D-B6-46-D9-60-D0-01-A4-88-23-B0-97-00-D3-CF-1C-7D-03-3B">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Private.Xml.Linq.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Private.Xml.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BB-E9-27-9F-09-52-C5-7F-C6-5A-90-6A-1A-75-67-35-79-EE-D4-59">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Security.Cryptography.Algorithms.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Algorithms</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="30-25-0A-23-51-AC-2A-93-7D-B3-46-55-31-DF-E6-60-57-51-CE-E2">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Security.Cryptography.Primitives.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B2-B2-83-B8-82-5B-43-8A-FA-5A-D5-8D-31-24-86-04-AF-11-8E-F5">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Private.Xml.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Private.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B1-33-83-FB-74-15-E0-B6-18-A8-E6-8D-97-77-03-93-3B-3F-2E-C1">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.TemplateEngine.Cli.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:00Z</ModuleTime>
+      <ModuleName>Microsoft.TemplateEngine.Cli</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="49-0D-CA-99-FC-22-57-EE-C8-31-A2-32-5B-7B-F3-4E-F7-41-CA-32">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Xml.ReaderWriter.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Xml.ReaderWriter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2E-3F-CC-3B-73-DD-6E-D6-D7-19-D2-3B-72-A8-DD-5A-42-B0-81-33">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Diagnostics.Tracing.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Tracing</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="64-08-DD-26-B0-1C-2E-94-36-FF-3F-33-F8-2F-FA-A9-E6-21-22-94">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Resources.ResourceManager.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Resources.ResourceManager</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="25-34-98-55-60-C5-F5-29-A5-3D-97-B4-5E-90-63-14-D9-3E-31-48">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Globalization.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Globalization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A1-04-D2-E9-58-7E-B1-5B-57-E2-D2-48-6E-AE-19-70-57-33-D5-AE">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Private.Uri.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Private.Uri</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="38-E7-54-40-1D-22-A0-24-23-89-8D-44-4B-F7-B9-FF-67-0E-33-E8">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C6-8D-13-B2-33-C5-2A-06-1F-24-8C-E4-80-91-B1-96-07-6F-F1-32">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Text.RegularExpressions.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Text.RegularExpressions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CA-3B-3D-23-FB-7D-62-33-AC-57-22-BC-62-AB-60-77-8A-1A-F9-C3">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Buffers.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:20Z</ModuleTime>
+      <ModuleName>System.Buffers</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="32-FB-76-54-09-44-8B-46-21-64-A6-00-26-C3-00-01-EA-BC-48-A5">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Reflection.Emit.ILGeneration.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Reflection.Emit.ILGeneration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0C-DE-6C-7E-84-94-EF-81-0D-EB-20-C5-0A-77-23-20-4B-24-3B-4F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Reflection.Emit.Lightweight.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Reflection.Emit.Lightweight</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1F-9B-4D-EE-82-67-50-96-05-89-D2-51-63-09-82-0B-0F-FD-4D-54">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Reflection.Primitives.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Reflection.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8D-CB-82-4A-FB-C8-36-2A-43-34-FA-7E-32-2E-16-A9-F1-0C-89-FA">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.TemplateEngine.Utils.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:06Z</ModuleTime>
+      <ModuleName>Microsoft.TemplateEngine.Utils</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A7-3A-AF-20-E7-A8-39-23-B7-52-1A-45-B7-F5-24-B7-F2-EE-80-08">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\Microsoft.Win32.Registry.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:20Z</ModuleTime>
+      <ModuleName>Microsoft.Win32.Registry</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F8-8D-A1-48-9D-F0-0A-16-50-79-E0-CB-DE-D5-6D-5A-4F-69-0B-0C">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Diagnostics.Tools.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Tools</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0D-B4-3C-EB-30-AC-30-DB-AA-AD-D6-B4-24-00-0D-09-59-91-68-15">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Diagnostics.Debug.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Debug</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="66-A6-F8-C6-13-2E-6B-A0-D8-C3-76-F7-02-14-03-CE-63-1D-D5-B1">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Text.Encoding.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Text.Encoding</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="45-28-E2-BC-1B-9E-38-6A-A4-6E-A6-53-8E-60-9E-C2-8B-DF-CE-17">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.IO.Compression.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.IO.Compression</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="32-C2-0F-D2-41-91-50-B9-1A-F7-6B-C6-AE-ED-0D-31-37-E6-B0-1F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Net.Http.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Net.Http</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="75-D8-47-BF-F9-75-E8-FD-9E-75-B0-16-6B-21-7C-B4-43-07-D3-9E">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Net.Primitives.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Net.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-4D-F2-1D-16-E5-46-45-9B-B7-19-5B-F7-13-5F-46-44-E4-8A-96">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.ComponentModel.Primitives.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.ComponentModel.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="56-DD-79-0F-B5-F4-8A-A4-B1-E5-03-17-7E-E3-2C-6C-79-79-6C-27">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Net.Security.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Net.Security</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B5-D3-D6-89-9E-19-31-3D-CC-03-A4-E0-A0-0D-A1-9A-D4-52-77-1F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\Microsoft.Win32.Primitives.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:20Z</ModuleTime>
+      <ModuleName>Microsoft.Win32.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-4A-C0-E1-A0-4E-2D-13-6E-B7-28-B6-91-4E-B1-75-22-EB-4B-73">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Security.Cryptography.X509Certificates.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.X509Certificates</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5E-6E-9A-A5-6B-53-DB-72-78-F5-58-08-D9-03-24-8A-0F-F4-D4-37">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Diagnostics.DiagnosticSource.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Diagnostics.DiagnosticSource</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9C-B6-B9-79-FD-48-CC-E8-F7-E7-B9-63-09-8C-12-F5-D3-5C-E5-30">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Collections.NonGeneric.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:20Z</ModuleTime>
+      <ModuleName>System.Collections.NonGeneric</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-F7-12-74-9E-5B-D8-E2-3E-FA-E6-80-98-0F-23-54-1D-74-28-BE">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Threading.Timer.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Threading.Timer</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="62-E8-C2-7E-92-C4-5E-B6-EF-5E-82-79-55-B1-FB-71-33-A2-10-65">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Net.NetworkInformation.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Net.NetworkInformation</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-91-BA-6E-83-D6-17-75-0A-C5-B7-94-A3-38-37-64-8F-6F-9F-CD">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Net.Sockets.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Net.Sockets</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="12-FF-15-5E-C8-8A-F8-CD-CD-F4-5A-2D-C5-2E-80-9C-8A-D5-45-A4">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Threading.Overlapped.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Threading.Overlapped</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="88-90-D8-CF-B3-C8-D6-5F-31-2D-0E-5F-71-84-7C-F1-67-32-A8-89">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Net.NameResolution.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Net.NameResolution</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AF-CF-6D-E6-DD-F3-3A-A6-6D-1F-75-63-0E-A1-9B-49-E8-7C-E7-E6">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Security.Principal.Windows.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Security.Principal.Windows</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="02-78-42-C0-75-0C-67-1A-8A-C1-1B-20-9E-AF-5F-84-B1-98-3A-C3">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Security.Claims.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Security.Claims</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="71-B7-D9-0C-99-2F-5B-7C-4A-66-DF-03-0F-E0-E6-F7-E3-03-F5-CB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Security.Principal.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Security.Principal</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="00-AE-EC-22-9C-4E-35-20-0B-29-DE-8E-8F-15-C4-39-CD-9A-60-84">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Security.Cryptography.Encoding.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Encoding</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="00-43-68-1D-69-C8-6A-F8-FA-DD-B7-21-47-6D-D7-01-97-77-1C-10">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Threading.ThreadPool.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Threading.ThreadPool</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-91-3F-A8-9B-D4-0A-8E-95-6F-FE-3F-A5-C5-99-F7-B1-CD-B9-CB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Private.CoreLib.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Private.CoreLib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0D-FA-A6-AE-B6-41-05-2B-5A-6C-87-21-F2-36-D9-45-B2-A4-F6-C6">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\vstest.console.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:22:42Z</ModuleTime>
+      <ModuleName>vstest.console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C0-15-8B-0D-FD-A9-BE-A3-71-7B-D5-92-9A-E4-07-F5-72-69-98-77">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Runtime.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="53-85-76-BD-BB-E8-8F-29-89-3A-2D-34-7B-F4-F1-A0-98-03-3F-5D">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Diagnostics.Process.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Process</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-4D-F2-1D-16-E5-46-45-9B-B7-19-5B-F7-13-5F-46-44-E4-8A-96">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.ComponentModel.Primitives.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.ComponentModel.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="01-D9-37-96-B0-DB-53-97-CA-E7-92-F3-9B-2A-CB-40-A8-38-B1-D8">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Runtime.Extensions.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Runtime.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="26-A9-51-86-D3-63-FE-5B-65-3F-96-62-B4-D2-AC-B6-C9-F4-ED-64">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.TestPlatform.CoreUtilities.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:02Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.CoreUtilities</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0D-B4-3C-EB-30-AC-30-DB-AA-AD-D6-B4-24-00-0D-09-59-91-68-15">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Diagnostics.Debug.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Debug</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3B-CF-92-92-FB-92-6A-F3-F1-D7-0F-E6-8B-82-C9-CF-48-E7-17-AD">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Threading.Thread.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Threading.Thread</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DB-4B-9B-F6-99-74-D6-AF-6F-2F-2D-D0-F4-6E-57-2C-53-A6-44-28">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Threading.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Threading</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4A-38-F9-9C-83-95-43-D7-C8-97-A5-38-6A-BA-CE-D8-47-FB-8A-6A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Console.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="87-C3-A7-53-F3-2D-DC-CA-02-42-D2-A4-0B-41-63-BF-26-B7-62-2A">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.IO.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.IO</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="14-06-09-C8-50-24-44-54-C6-74-54-2F-0E-22-D1-62-42-BD-6E-9F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Text.Encoding.Extensions.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Text.Encoding.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2E-3F-CC-3B-73-DD-6E-D6-D7-19-D2-3B-72-A8-DD-5A-42-B0-81-33">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Diagnostics.Tracing.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Diagnostics.Tracing</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E1-54-25-BF-80-76-A9-FD-B5-D4-F9-D4-03-9C-2C-8E-A9-FB-CF-E8">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Collections.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:20Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="60-29-D0-E3-59-0B-B7-0E-C8-4E-BC-42-92-7C-13-D4-6B-46-34-D4">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:20:58Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.ObjectModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="61-84-77-E4-A5-2F-E9-B7-EC-5E-39-99-8C-7C-1F-57-B8-8F-AE-3A">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.VisualStudio.TestPlatform.Client.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:02Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.Client</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0C-2A-A0-80-97-67-31-BE-00-11-05-D8-CE-5D-E6-11-5E-34-20-09">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.VisualStudio.TestPlatform.Common.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:06Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A1-E9-C7-5F-0A-64-79-4A-5E-2A-B6-6C-6E-23-1A-9F-AA-6D-F0-18">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Linq.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-4C-14-57-4C-37-DF-A6-6F-DE-C9-85-12-F5-79-03-D9-48-F8-B0">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Runtime.InteropServices.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Runtime.InteropServices</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="64-08-DD-26-B0-1C-2E-94-36-FF-3F-33-F8-2F-FA-A9-E6-21-22-94">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Resources.ResourceManager.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Resources.ResourceManager</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F4-C3-4E-4C-FA-12-F4-82-0F-30-0A-66-DD-78-CC-2C-ED-7A-C4-49">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.IO.FileSystem.Primitives.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.IO.FileSystem.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A5-32-FF-F5-19-DE-59-A1-5C-60-98-9E-FA-D0-BB-D9-85-34-AC-9B">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.IO.FileSystem.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.IO.FileSystem</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="49-0D-CA-99-FC-22-57-EE-C8-31-A2-32-5B-7B-F3-4E-F7-41-CA-32">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Xml.ReaderWriter.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Xml.ReaderWriter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B2-B2-83-B8-82-5B-43-8A-FA-5A-D5-8D-31-24-86-04-AF-11-8E-F5">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Private.Xml.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Private.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="21-D3-42-22-EA-CD-99-1F-63-05-E1-CA-59-E3-23-CA-C6-AE-E1-18">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.TestPlatform.PlatformAbstractions.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:02Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.PlatformAbstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4E-7B-F9-88-5B-25-DE-D3-51-69-2C-35-59-B7-23-55-B3-02-5B-EE">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Xml.XmlDocument.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Xml.XmlDocument</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A9-18-90-67-F5-43-F6-7C-7F-BD-7B-26-CC-EE-07-61-08-67-F5-8A">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.TestPlatform.Utilities.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:04Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.Utilities</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="78-00-DD-6C-E1-3F-49-CF-FD-E0-7B-95-0C-3F-2A-38-56-C2-EF-DD">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Runtime.InteropServices.RuntimeInformation.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Runtime.InteropServices.RuntimeInformation</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A1-04-D2-E9-58-7E-B1-5B-57-E2-D2-48-6E-AE-19-70-57-33-D5-AE">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Private.Uri.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Private.Uri</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="37-7D-65-EF-AD-C4-E5-0A-76-6D-93-36-33-8B-F5-86-18-20-D6-46">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Memory.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Memory</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BB-E9-27-9F-09-52-C5-7F-C6-5A-90-6A-1A-75-67-35-79-EE-D4-59">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Security.Cryptography.Algorithms.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Security.Cryptography.Algorithms</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E3-E2-41-26-FE-B5-4E-89-C8-08-78-3E-91-6F-F1-69-E5-49-CA-29">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\System.Xml.XPath.XmlDocument.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:20:50Z</ModuleTime>
+      <ModuleName>System.Xml.XPath.XmlDocument</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0D-AA-DF-94-3C-56-7C-AC-02-55-5C-EC-D4-2A-FF-71-E9-E9-9B-48">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Xml.XPath.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Xml.XPath</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="25-34-98-55-60-C5-F5-29-A5-3D-97-B4-5E-90-63-14-D9-3E-31-48">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Globalization.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Globalization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2F-69-43-98-CD-1F-20-18-5F-70-42-F4-39-D3-A9-6B-A2-C9-08-99">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Diagnostics.TraceSource.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Diagnostics.TraceSource</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9C-B6-B9-79-FD-48-CC-E8-F7-E7-B9-63-09-8C-12-F5-D3-5C-E5-30">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Collections.NonGeneric.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:20Z</ModuleTime>
+      <ModuleName>System.Collections.NonGeneric</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="53-78-36-C6-B0-5E-3C-39-E4-35-7C-15-42-13-1B-CF-20-A5-69-C0">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.TestPlatform.CrossPlatEngine.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:02Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.CrossPlatEngine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BE-AF-51-3A-F4-42-C4-AF-6A-12-00-14-52-96-92-F5-3A-35-70-9D">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Reflection.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CA-3B-3D-23-FB-7D-62-33-AC-57-22-BC-62-AB-60-77-8A-1A-F9-C3">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Buffers.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:20Z</ModuleTime>
+      <ModuleName>System.Buffers</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="38-E7-54-40-1D-22-A0-24-23-89-8D-44-4B-F7-B9-FF-67-0E-33-E8">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Threading.Tasks.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Threading.Tasks</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4E-65-34-65-66-6D-35-84-9C-E2-32-B1-34-4C-2F-5F-01-36-5E-BF">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Runtime.Loader.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Runtime.Loader</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D7-13-A2-85-FC-57-3A-FC-4B-65-51-C1-92-70-BB-17-67-D2-2D-BF">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:19:10Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.Extensions.BlameDataCollector</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CC-7F-9D-18-34-55-3E-0D-18-A8-A0-84-F3-CA-3A-1A-24-CE-25-1E">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Reflection.TypeExtensions.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Reflection.TypeExtensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FD-98-77-83-A9-8B-65-65-DE-4E-2F-80-5F-FE-DC-EB-1A-6D-70-82">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:18:56Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.Extensions.EventLogCollector</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6B-28-BE-FC-BE-38-DD-ED-E0-F8-8D-EA-8C-AF-16-0A-79-7B-55-D8">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\mscorlib.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:20Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1F-EC-46-65-ED-CF-64-E2-C9-3E-02-1E-48-4A-E9-62-42-97-FD-EA">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Xml.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-1D-48-0B-B7-31-52-04-0E-64-36-F4-BE-B4-FD-1E-47-0A-F1-C3">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Extensions\Microsoft.TestPlatform.TestHostRuntimeProvider.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:19:10Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.TestHostRuntimeProvider</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6E-FC-1C-DF-31-0E-70-3A-F9-9C-10-C6-97-3B-A7-31-21-6F-07-51">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Reflection.Extensions.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Reflection.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="32-62-27-01-B8-70-6D-FA-B5-BC-52-A0-25-75-C4-45-DD-AF-A4-BC">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Extensions\Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:18:54Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.Extensions.Trx.TestLogger</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A4-49-4A-04-BA-B5-E3-A5-FC-C7-CF-82-9E-31-4E-30-41-93-42-75">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Reflection.Metadata.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Reflection.Metadata</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="82-2B-B5-E5-BA-8F-AB-C1-E0-9E-BC-21-AF-ED-8A-26-07-B9-32-22">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Collections.Immutable.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:20Z</ModuleTime>
+      <ModuleName>System.Collections.Immutable</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B5-D3-D6-89-9E-19-31-3D-CC-03-A4-E0-A0-0D-A1-9A-D4-52-77-1F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\Microsoft.Win32.Primitives.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:20Z</ModuleTime>
+      <ModuleName>Microsoft.Win32.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="67-8C-FF-B5-62-B4-AA-5C-76-AC-92-BF-25-9B-13-85-D3-93-70-EF">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Microsoft.TestPlatform.CommunicationUtilities.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:20:58Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.CommunicationUtilities</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="50-48-DB-36-4A-CA-03-0D-74-00-09-B9-EF-29-71-22-55-E9-6B-87">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Newtonsoft.Json.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:22:46Z</ModuleTime>
+      <ModuleName>Newtonsoft.Json</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2E-B5-0E-B4-0E-F1-3F-03-F7-A1-08-61-49-7C-20-ED-FB-03-28-4C">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Runtime.Serialization.Primitives.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Runtime.Serialization.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="63-F7-12-74-9E-5B-D8-E2-3E-FA-E6-80-98-0F-23-54-1D-74-28-BE">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Threading.Timer.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Threading.Timer</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="75-D8-47-BF-F9-75-E8-FD-9E-75-B0-16-6B-21-7C-B4-43-07-D3-9E">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Net.Primitives.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Net.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="27-91-BA-6E-83-D6-17-75-0A-C5-B7-94-A3-38-37-64-8F-6F-9F-CD">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Net.Sockets.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Net.Sockets</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="12-FF-15-5E-C8-8A-F8-CD-CD-F4-5A-2D-C5-2E-80-9C-8A-D5-45-A4">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Threading.Overlapped.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Threading.Overlapped</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="88-90-D8-CF-B3-C8-D6-5F-31-2D-0E-5F-71-84-7C-F1-67-32-A8-89">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Net.NameResolution.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Net.NameResolution</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="00-43-68-1D-69-C8-6A-F8-FA-DD-B7-21-47-6D-D7-01-97-77-1C-10">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Threading.ThreadPool.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Threading.ThreadPool</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BE-2D-B6-00-9B-FC-8F-8C-E6-4B-D2-D5-36-33-94-A3-D0-EB-B6-4E">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2019-08-13T01:25:17.1671998Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0E-90-DA-96-25-0D-24-1A-95-4E-D8-7F-47-A6-B4-77-AB-AF-98-F3">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\TestHost\testhost.x86.exe</ModulePath>
+      <ModuleTime>2019-08-14T04:22:20Z</ModuleTime>
+      <ModuleName>testhost.x86</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F9-04-F7-32-D6-1E-08-0D-AD-0F-ED-1C-BA-AF-A7-C1-4F-E3-6C-3B">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\TestHost\Microsoft.TestPlatform.CoreUtilities.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:06Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.CoreUtilities</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9D-87-B0-3E-42-95-FF-FE-A6-84-23-90-C5-F5-3C-BC-5C-81-90-7B">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\TestHost\Microsoft.TestPlatform.PlatformAbstractions.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:04Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.PlatformAbstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B8-B3-C9-57-BD-9E-52-79-89-B3-AB-9D-49-44-B8-E6-C2-DC-AA-FF">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\TestHost\Microsoft.TestPlatform.CrossPlatEngine.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:04Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.CrossPlatEngine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="92-87-55-54-33-80-45-E8-C9-BB-B4-5F-9A-7D-93-11-DF-CB-4B-08">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\TestHost\Microsoft.TestPlatform.CommunicationUtilities.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:02Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.CommunicationUtilities</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E3-6A-50-3E-68-4C-40-87-63-20-E9-82-51-E0-4D-50-E1-AC-2A-78">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\TestHost\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:06Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.ObjectModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E9-EF-25-08-05-D0-7D-0B-B4-6A-28-24-E8-A1-60-13-AF-46-A9-A7">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\TestHost\Microsoft.VisualStudio.TestPlatform.Common.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:08Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="13-0E-D3-8F-C0-CE-29-85-55-AB-60-57-AB-1B-68-15-2A-94-BF-F6">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\TestHost\Newtonsoft.Json.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:22:08Z</ModuleTime>
+      <ModuleName>Newtonsoft.Json</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E5-59-C6-FC-25-3D-4F-63-13-7A-12-DC-C3-3E-F3-A8-9F-49-A3-D6">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2019-07-25T01:29:56.1390545Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2A-F4-1C-14-5D-7A-74-B3-03-8B-1D-2A-59-DC-B6-BE-1D-C8-EF-54">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:16.9508953Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F2-26-5B-FA-55-E9-5B-BC-DD-3A-32-56-2C-38-71-11-1A-8E-6D-32">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:17.0290261Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AF-CF-6D-E6-DD-F3-3A-A6-6D-1F-75-63-0E-A1-9B-49-E8-7C-E7-E6">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Security.Principal.Windows.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Security.Principal.Windows</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="02-78-42-C0-75-0C-67-1A-8A-C1-1B-20-9E-AF-5F-84-B1-98-3A-C3">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Security.Claims.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Security.Claims</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="71-B7-D9-0C-99-2F-5B-7C-4A-66-DF-03-0F-E0-E6-F7-E3-03-F5-CB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Security.Principal.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Security.Principal</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="66-A6-F8-C6-13-2E-6B-A0-D8-C3-76-F7-02-14-03-CE-63-1D-D5-B1">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Text.Encoding.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Text.Encoding</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0C-C7-BD-A4-8F-57-3C-0F-20-7D-A0-AC-D0-04-61-CF-6C-40-9E-EB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Dynamic.Runtime.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Dynamic.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="35-70-80-1F-41-19-05-4B-14-19-44-C7-17-67-1F-E0-F3-2B-B1-B3">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Linq.Expressions.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Linq.Expressions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="13-86-17-5B-C4-F1-67-88-12-5B-F4-94-0A-8D-E9-2C-66-AA-2A-EC">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.ObjectModel.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.ObjectModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="95-E2-CF-CC-99-2B-EA-69-F8-4D-89-A7-7A-2D-CF-45-F1-DE-F4-ED">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Xml.XDocument.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Xml.XDocument</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C3-8D-B6-46-D9-60-D0-01-A4-88-23-B0-97-00-D3-CF-1C-7D-03-3B">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Private.Xml.Linq.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Private.Xml.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C6-8D-13-B2-33-C5-2A-06-1F-24-8C-E4-80-91-B1-96-07-6F-F1-32">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Text.RegularExpressions.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Text.RegularExpressions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D6-F7-07-23-10-28-AF-AF-FD-23-71-4A-C6-9D-69-30-97-FB-25-29">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2019-05-18T22:09:23.3366616Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CB-9A-69-FA-E9-A7-1D-79-EC-E4-45-7B-80-24-5F-0E-56-96-EA-D4">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:17.0446523Z</ModuleTime>
+      <ModuleName>System.Numerics</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3C-03-6D-B1-13-F3-EA-5F-93-9F-C0-AF-39-94-B1-A7-1E-AD-84">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll</ModulePath>
+      <ModuleTime>2019-06-13T02:15:03.9228984Z</ModuleTime>
+      <ModuleName>System.Runtime.Serialization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EE-87-E3-8B-35-D7-7B-51-75-59-60-AC-9C-42-7D-75-33-40-43-72">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.3885028Z</ModuleTime>
+      <ModuleName>System.Xml.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="81-DE-20-6D-F7-FE-B6-53-CF-0D-4F-C8-06-44-8E-18-D6-1D-D4-22">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</ModulePath>
+      <ModuleTime>2018-10-11T03:09:37.2288781Z</ModuleTime>
+      <ModuleName>System.Data</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FD-98-77-83-A9-8B-65-65-DE-4E-2F-80-5F-FE-DC-EB-1A-6D-70-82">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:18:56Z</ModuleTime>
+      <ModuleName>Microsoft.TestPlatform.Extensions.EventLogCollector</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="67-97-99-39-84-F7-16-4E-E7-62-EA-DC-7C-83-21-8F-A9-D9-A1-A0">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll</ModulePath>
+      <ModuleTime>2018-06-05T16:51:36Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F1-67-10-FE-CA-06-2B-45-18-C0-DB-E8-DB-07-A4-7E-5B-25-BD-51">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.1697369Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="44-8F-EE-BC-56-83-22-04-15-20-82-7D-BF-FA-A8-E8-9C-33-D9-E8">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</ModulePath>
+      <ModuleTime>2018-06-05T16:47:02Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.TestFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6F-CB-80-19-07-E6-7F-D6-F9-1D-EB-CD-AD-79-88-FA-B9-E8-91-A5">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll</ModulePath>
+      <ModuleTime>2018-06-05T16:50:06Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4D-AE-CD-82-E0-4B-E2-0F-CA-8E-B6-ED-56-65-84-57-EF-28-68-42">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll</ModulePath>
+      <ModuleTime>2018-06-05T16:54:38Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="09-61-C1-AD-F8-B2-1F-FC-E2-68-2C-0B-39-0A-BF-03-BB-AF-01-9D">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:16.872764Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="48-9C-62-AC-2C-9E-AF-3D-29-AE-01-7A-58-E0-62-5E-2B-10-07-83">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.IO\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.IO.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:19.6698491Z</ModuleTime>
+      <ModuleName>System.IO</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BB-0E-32-BA-3C-F4-2F-60-3A-65-52-0A-0F-71-84-F5-3B-32-84-5E">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\NUnit3.TestAdapter.dll</ModulePath>
+      <ModuleTime>2018-10-28T22:54:04Z</ModuleTime>
+      <ModuleName>NUnit3.TestAdapter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4D-3A-F8-21-37-BF-6C-40-07-B1-F2-B3-C1-40-95-02-8B-29-D6-BF">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2017-07-13T22:33:18Z</ModuleTime>
+      <ModuleName>nunit.engine.api</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="FA-29-0C-CD-45-6D-93-E2-FE-95-B8-09-1C-AE-5C-F6-36-F6-A0-AB">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:48Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun.VisualStudio.TestAdapter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BF-6D-7E-A4-73-5F-5E-0E-75-43-C8-27-90-A9-D5-D3-76-65-92-5E">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.Common.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:30Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="74-1D-89-B0-CB-55-7F-03-DD-77-FC-42-47-06-EA-D8-C7-63-EC-A8">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.Framework.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:40Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun.Framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="23-AA-CC-61-54-4F-23-33-0B-C6-F5-0D-4B-ED-3A-91-08-B2-0F-D2">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.Framework.Interfaces.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:30Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun.Framework.Interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="26-E0-34-D3-A9-C4-33-7A-2B-12-1B-03-1E-48-23-95-AB-44-04-80">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:19.74798Z</ModuleTime>
+      <ModuleName>System.Collections</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="64-2B-2F-6C-93-40-15-B2-C2-09-53-6D-83-6E-09-18-65-28-04-7B">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Extensions.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:17.0759046Z</ModuleTime>
+      <ModuleName>System.Runtime.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7D-BD-3F-35-33-E9-DF-0D-F5-C7-3D-6F-A9-CC-AD-3B-41-D5-28-54">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\TestHost\System.Reflection.Metadata.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:20:08Z</ModuleTime>
+      <ModuleName>System.Reflection.Metadata</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0D-35-AD-B9-8B-FE-40-78-44-14-57-89-DD-4B-75-5A-BB-E2-F7-B1">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\TestHost\System.Collections.Immutable.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:19:08Z</ModuleTime>
+      <ModuleName>System.Collections.Immutable</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="42-7B-A1-41-28-72-72-CF-95-80-15-80-A7-86-0F-09-84-FD-AD-60">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.IO.FileSystem\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.IO.FileSystem.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.1541107Z</ModuleTime>
+      <ModuleName>System.IO.FileSystem</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6E-CA-0A-38-28-57-A1-35-21-AE-98-C2-2C-3C-9E-C3-1D-A2-56-91">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.IO.MemoryMappedFiles\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.IO.MemoryMappedFiles.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:15.6695494Z</ModuleTime>
+      <ModuleName>System.IO.MemoryMappedFiles</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8B-72-1B-8D-0D-EC-7F-51-BC-65-96-C3-C2-6C-9E-A7-28-55-88-DE">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Handles\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Handles.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:15.7008013Z</ModuleTime>
+      <ModuleName>System.Runtime.Handles</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BB-F2-F0-0B-65-C1-D4-87-F6-EA-BD-45-FB-BF-60-6F-6C-D5-9D-9F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Extensions.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.2322412Z</ModuleTime>
+      <ModuleName>System.Reflection.Extensions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1A-66-B3-AD-A9-11-BD-99-FC-2D-BE-15-FF-EC-97-E7-14-44-10-1E">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Threading\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:16.9352691Z</ModuleTime>
+      <ModuleName>System.Threading</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8E-4C-6F-82-33-1E-54-34-FE-06-78-3D-39-39-2F-56-A9-C0-57-D4">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Text.Encoding\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Text.Encoding.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.185363Z</ModuleTime>
+      <ModuleName>System.Text.Encoding</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A9-83-11-F0-BE-0C-4A-A2-E7-49-98-89-7D-9D-A5-9B-BA-83-BA-E0">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Linq\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Linq.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.2634939Z</ModuleTime>
+      <ModuleName>System.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8B-37-83-77-E7-CC-0E-BF-47-EC-D6-70-8E-BB-02-E1-8D-DE-5B-56">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.ReaderWriter\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Xml.ReaderWriter.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:19.7167272Z</ModuleTime>
+      <ModuleName>System.Xml.ReaderWriter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="53-5B-D3-B4-4D-9B-1F-60-BD-F6-87-AD-11-54-A8-5B-62-DA-87-72">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.XDocument\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Xml.XDocument.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:16.888391Z</ModuleTime>
+      <ModuleName>System.Xml.XDocument</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="97-4E-47-34-9D-AF-66-79-B5-C7-38-EF-A8-2A-96-D5-2D-6C-46-7E">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Globalization\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Globalization.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:19.7948581Z</ModuleTime>
+      <ModuleName>System.Globalization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E3-6A-50-3E-68-4C-40-87-63-20-E9-82-51-E0-4D-50-E1-AC-2A-78">
+      <ModulePath>C:\Program Files\dotnet\sdk\2.1.802\TestHost\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</ModulePath>
+      <ModuleTime>2019-08-14T04:21:06Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.ObjectModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="63-BD-27-14-36-45-17-64-A8-93-B5-88-47-53-46-5D-72-0D-FF-B9">
+      <Summary numSequencePoints="98" visitedSequencePoints="77" numBranchPoints="29" visitedBranchPoints="22" sequenceCoverage="78.57" branchCoverage="75.86" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="6" numClasses="6" visitedMethods="22" numMethods="29" />
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\HotelBooking.Specs.dll</ModulePath>
+      <ModuleTime>2019-09-13T19:20:14.4616683Z</ModuleTime>
+      <ModuleName>HotelBooking.Specs</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\Howard Deiner\Source\Repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\Fakes\FakeBookingRepository.cs" />
+        <File uid="2" fullPath="C:\Users\Howard Deiner\Source\Repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\Fakes\FakeRoomRepository.cs" />
+        <File uid="3" fullPath="C:\Users\Howard Deiner\Source\Repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\CreateBooking.feature" />
+        <File uid="4" fullPath="C:\Users\Howard Deiner\Source\Repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\CreateBookingSteps.cs" />
+        <File uid="5" fullPath="C:\Users\Howard Deiner\Source\Repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\FindAvailableRoom.feature" />
+        <File uid="6" fullPath="C:\Users\Howard Deiner\Source\Repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\FindAvailableRoomSteps.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="24" visitedSequencePoints="15" numBranchPoints="6" visitedBranchPoints="3" sequenceCoverage="62.5" branchCoverage="50" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="6" />
+          <FullName>HotelBooking.UnitTests.Fakes.FakeBookingRepository</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void HotelBooking.UnitTests.Fakes.FakeBookingRepository::.ctor(System.DateTime,System.DateTime)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="1" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="42" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="2" ordinal="1" offset="7" sl="29" sc="9" el="29" ec="43" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="3" ordinal="2" offset="14" sl="53" sc="9" el="53" ec="45" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="4" ordinal="3" offset="21" sl="12" sc="9" el="12" ec="67" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="5" ordinal="4" offset="28" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="6" ordinal="5" offset="29" sl="14" sc="13" el="14" ec="44" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="7" ordinal="6" offset="36" sl="15" sc="13" el="15" ec="40" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="8" ordinal="7" offset="43" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="1" ordinal="0" offset="0" sl="20" sc="9" el="20" ec="42" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void HotelBooking.UnitTests.Fakes.FakeBookingRepository::Add(HotelBooking.Models.Booking)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="9" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="10" ordinal="1" offset="1" sl="24" sc="13" el="24" ec="33" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="2" uspid="11" ordinal="2" offset="8" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="9" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void HotelBooking.UnitTests.Fakes.FakeBookingRepository::Edit(HotelBooking.Models.Booking)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="12" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="13" ordinal="1" offset="1" sl="33" sc="13" el="33" ec="34" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="14" ordinal="2" offset="8" sl="34" sc="9" el="34" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="12" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>HotelBooking.Models.Booking HotelBooking.UnitTests.Fakes.FakeBookingRepository::Get(System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="15" ordinal="0" offset="0" sl="37" sc="9" el="37" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="16" ordinal="1" offset="1" sl="38" sc="13" el="38" ec="156" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="17" ordinal="2" offset="67" sl="39" sc="9" el="39" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="15" ordinal="0" offset="0" sl="37" sc="9" el="37" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Collections.Generic.IEnumerable`1&lt;HotelBooking.Models.Booking&gt; HotelBooking.UnitTests.Fakes.FakeBookingRepository::GetAll()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="18" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="19" ordinal="1" offset="1" sl="43" sc="13" el="47" ec="15" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="20" ordinal="2" offset="147" sl="48" sc="13" el="48" ec="29" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="21" ordinal="3" offset="151" sl="49" sc="9" el="49" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="18" ordinal="0" offset="0" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void HotelBooking.UnitTests.Fakes.FakeBookingRepository::Remove(System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="22" ordinal="0" offset="0" sl="56" sc="9" el="56" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="23" ordinal="1" offset="1" sl="57" sc="13" el="57" ec="36" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="24" ordinal="2" offset="8" sl="58" sc="9" el="58" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="22" ordinal="0" offset="0" sl="56" sc="9" el="56" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="19" visitedSequencePoints="7" numBranchPoints="6" visitedBranchPoints="2" sequenceCoverage="36.84" branchCoverage="33.33" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="6" />
+          <FullName>HotelBooking.UnitTests.Fakes.FakeRoomRepository</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void HotelBooking.UnitTests.Fakes.FakeRoomRepository::Add(HotelBooking.Models.Room)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="25" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="26" ordinal="1" offset="1" sl="14" sc="13" el="14" ec="33" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="27" ordinal="2" offset="8" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="25" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.Void HotelBooking.UnitTests.Fakes.FakeRoomRepository::Edit(HotelBooking.Models.Room)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="28" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="29" ordinal="1" offset="1" sl="23" sc="13" el="23" ec="34" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="30" ordinal="2" offset="8" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="28" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>HotelBooking.Models.Room HotelBooking.UnitTests.Fakes.FakeRoomRepository::Get(System.Int32)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="31" ordinal="0" offset="0" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="32" ordinal="1" offset="1" sl="28" sc="13" el="28" ec="59" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="33" ordinal="2" offset="29" sl="29" sc="9" el="29" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="31" ordinal="0" offset="0" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Collections.Generic.IEnumerable`1&lt;HotelBooking.Models.Room&gt; HotelBooking.UnitTests.Fakes.FakeRoomRepository::GetAll()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="34" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="5" uspid="35" ordinal="1" offset="1" sl="33" sc="13" el="37" ec="15" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="5" uspid="36" ordinal="2" offset="71" sl="38" sc="13" el="38" ec="26" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="5" uspid="37" ordinal="3" offset="75" sl="39" sc="9" el="39" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="34" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void HotelBooking.UnitTests.Fakes.FakeRoomRepository::Remove(System.Int32)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="38" ordinal="0" offset="0" sl="46" sc="9" el="46" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="39" ordinal="1" offset="1" sl="47" sc="13" el="47" ec="36" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="40" ordinal="2" offset="8" sl="48" sc="9" el="48" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="38" ordinal="0" offset="0" sl="46" sc="9" el="46" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void HotelBooking.UnitTests.Fakes.FakeRoomRepository::.ctor()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="41" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="42" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="5" uspid="42" ordinal="1" offset="7" sl="19" sc="9" el="19" ec="43" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="5" uspid="43" ordinal="2" offset="14" sl="43" sc="9" el="43" ec="45" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="41" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="42" bec="0" bev="0" fileid="2" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="3" />
+          <FullName>HotelBooking.Specs.CreateBookingFeature</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingFeature::FeatureSetup()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="44" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingFeature::FeatureTearDown()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="45" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingFeature::TestInitialize()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="46" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingFeature::ScenarioTearDown()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="47" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingFeature::ScenarioInitialize(TechTalk.SpecFlow.ScenarioInfo)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="48" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingFeature::ScenarioStart()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="49" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingFeature::ScenarioCleanup()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="50" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingFeature::CreateABooking(System.String,System.String,System.String[])</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="51" ordinal="0" offset="60" sl="7" sc="1" el="7" ec="39" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="2" uspid="52" ordinal="1" offset="68" sl="8" sc="13" el="8" ec="34" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="2" uspid="53" ordinal="2" offset="75" sl="8" sc="2" el="8" ec="128" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="2" uspid="54" ordinal="3" offset="105" sl="9" sc="2" el="9" ec="120" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="2" uspid="55" ordinal="4" offset="135" sl="10" sc="2" el="10" ec="104" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="2" uspid="56" ordinal="5" offset="159" sl="11" sc="2" el="11" ec="131" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="2" uspid="59" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingFeature::CreateABooking_2020_11_14()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="60" ordinal="0" offset="1" sl="7" sc="1" el="7" ec="77" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="61" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingFeature::CreateABooking_2020_11_20()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="62" ordinal="0" offset="1" sl="7" sc="1" el="7" ec="77" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="63" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingFeature::TestRunCleanup()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="64" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingFeature::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="65" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="19" visitedSequencePoints="19" numBranchPoints="5" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="5" numMethods="5" />
+          <FullName>HotelBooking.Specs.CreateBookingSteps</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingSteps::.ctor()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="66" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="36" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="67" ordinal="1" offset="7" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="68" ordinal="2" offset="8" sl="23" sc="13" el="23" ec="38" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="69" ordinal="3" offset="19" sl="24" sc="13" el="24" ec="89" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="70" ordinal="4" offset="52" sl="25" sc="13" el="25" ec="44" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="71" ordinal="5" offset="63" sl="26" sc="13" el="26" ec="59" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="72" ordinal="6" offset="86" sl="27" sc="13" el="27" ec="37" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="73" ordinal="7" offset="97" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="66" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="36" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingSteps::GivenAStartDate(System.String)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="74" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="75" ordinal="1" offset="1" sl="33" sc="13" el="33" ec="59" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="76" ordinal="2" offset="19" sl="34" sc="9" el="34" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="74" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingSteps::GivenAEndDate(System.String)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="77" ordinal="0" offset="0" sl="38" sc="9" el="38" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="78" ordinal="1" offset="1" sl="39" sc="13" el="39" ec="55" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="79" ordinal="2" offset="19" sl="40" sc="9" el="40" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="77" ordinal="0" offset="0" sl="38" sc="9" el="38" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingSteps::WhenWeCreatedABooking()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="80" ordinal="0" offset="0" sl="44" sc="9" el="44" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="81" ordinal="1" offset="1" sl="46" sc="9" el="46" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="80" ordinal="0" offset="0" sl="44" sc="9" el="44" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.CreateBookingSteps::ThenTheResultShouldBeCreatedTheBookingTrue()</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="82" ordinal="0" offset="0" sl="50" sc="9" el="50" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="83" ordinal="1" offset="1" sl="51" sc="13" el="51" ec="64" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="2" uspid="84" ordinal="2" offset="24" sl="52" sc="9" el="52" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="82" ordinal="0" offset="0" sl="50" sc="9" el="50" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="9" visitedSequencePoints="9" numBranchPoints="4" visitedBranchPoints="4" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="4" numMethods="4" />
+          <FullName>HotelBooking.Specs.FindAvailableRoomFeature</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomFeature::FeatureSetup()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="85" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomFeature::FeatureTearDown()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="86" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomFeature::TestInitialize()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="87" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomFeature::ScenarioTearDown()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="88" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomFeature::ScenarioInitialize(TechTalk.SpecFlow.ScenarioInfo)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="89" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomFeature::ScenarioStart()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="90" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663332</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomFeature::ScenarioCleanup()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="91" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663333</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomFeature::FindAvailableRoom(System.String,System.String,System.String[])</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="92" ordinal="0" offset="60" sl="7" sc="1" el="7" ec="39" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="93" ordinal="1" offset="68" sl="8" sc="13" el="8" ec="34" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="94" ordinal="2" offset="75" sl="8" sc="2" el="8" ec="124" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="95" ordinal="3" offset="105" sl="9" sc="2" el="9" ec="118" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="96" ordinal="4" offset="135" sl="10" sc="2" el="10" ec="112" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="3" uspid="97" ordinal="5" offset="159" sl="11" sc="2" el="11" ec="120" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="100" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663334</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomFeature::FindAvailableRoom_2020_11_14()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="101" ordinal="0" offset="1" sl="7" sc="1" el="7" ec="80" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="102" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663335</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomFeature::FindAvailableRoom_2020_11_20()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="103" ordinal="0" offset="1" sl="7" sc="1" el="7" ec="80" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="104" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663336</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomFeature::FindAvailableRoom_2020_11_03()</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="105" ordinal="0" offset="1" sl="7" sc="1" el="7" ec="80" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="106" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663337</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomFeature::TestRunCleanup()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="107" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663338</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomFeature::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="108" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="19" visitedSequencePoints="19" numBranchPoints="5" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="5" numMethods="5" />
+          <FullName>HotelBooking.Specs.FindAvailableRoomSteps</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="8" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663339</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomSteps::.ctor()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="109" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="40" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="110" ordinal="1" offset="7" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="111" ordinal="2" offset="8" sl="25" sc="13" el="25" ec="38" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="112" ordinal="3" offset="19" sl="26" sc="13" el="26" ec="89" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="113" ordinal="4" offset="52" sl="27" sc="13" el="27" ec="44" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="114" ordinal="5" offset="63" sl="28" sc="13" el="28" ec="59" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="115" ordinal="6" offset="86" sl="29" sc="13" el="29" ec="37" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="116" ordinal="7" offset="97" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="109" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="40" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663340</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomSteps::GivenAStartDate(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="117" ordinal="0" offset="0" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="118" ordinal="1" offset="1" sl="36" sc="13" el="36" ec="59" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="119" ordinal="2" offset="19" sl="37" sc="9" el="37" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="117" ordinal="0" offset="0" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663341</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomSteps::GivenAEndDate(System.String)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="120" ordinal="0" offset="0" sl="41" sc="9" el="41" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="121" ordinal="1" offset="1" sl="42" sc="13" el="42" ec="55" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="122" ordinal="2" offset="19" sl="43" sc="9" el="43" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="120" ordinal="0" offset="0" sl="41" sc="9" el="41" ec="10" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663342</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomSteps::WhenWeSearchForAvailableRoom()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="123" ordinal="0" offset="0" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="124" ordinal="1" offset="1" sl="49" sc="9" el="49" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="123" ordinal="0" offset="0" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663343</MetadataToken>
+              <Name>System.Void HotelBooking.Specs.FindAvailableRoomSteps::ThenTheResultShouldBeActiveBookings()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="125" ordinal="0" offset="0" sl="53" sc="9" el="53" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="126" ordinal="1" offset="1" sl="54" sc="13" el="54" ec="99" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="3" uspid="127" ordinal="2" offset="41" sl="55" sc="9" el="55" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="125" ordinal="0" offset="0" sl="53" sc="9" el="53" ec="10" bec="0" bev="0" fileid="6" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="78-8A-37-55-1D-1C-A6-13-69-DB-A2-FA-8C-58-E6-62-DB-70-B5-E7">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\nunit.engine.dll</ModulePath>
+      <ModuleTime>2017-07-13T22:33:18Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B5-C8-21-2F-CE-E2-50-81-0B-F4-6F-7A-B3-54-F3-09-07-D4-36-99">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2019-05-18T22:09:22.9929125Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B5-2C-52-19-7F-DE-8E-1A-EE-7C-F3-4D-31-FC-77-A2-C4-49-EE-AB">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:17.0134Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>Mono.Cecil.dll</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Mono.Cecil</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="3A-83-3E-B7-C6-BE-20-3F-16-79-9D-7B-7C-CD-8B-8C-9D-43-92-61">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\SpecFlowPlusRunner\Newtonsoft.Json.dll</ModulePath>
+      <ModuleTime>2018-03-24T21:44:14Z</ModuleTime>
+      <ModuleName>Newtonsoft.Json</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Microsoft.GeneratedCode</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F8-44-87-92-4E-D2-1D-A6-E4-2D-27-8E-FB-D8-C0-0F-4A-24-7C-12">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.Framework.Utils.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:32Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun.Framework.Utils</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C1-46-B5-30-EF-AD-F8-00-9A-6F-51-EE-E9-16-7E-22-2F-EC-54-AB">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.ComponentModel.TypeConverter.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.ComponentModel.TypeConverter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B3-95-41-B8-AE-1F-1E-D3-7E-87-90-59-9E-20-E9-8C-51-95-99-87">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.ComponentModel.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.ComponentModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AD-A8-EC-C3-6F-23-EA-85-3A-44-53-52-B8-47-82-43-7F-F9-52-A9">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Runtime.Serialization.Json.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:24Z</ModuleTime>
+      <ModuleName>System.Runtime.Serialization.Json</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9A-A1-DF-7C-9D-91-6F-65-FE-7D-B5-16-D4-E3-84-F8-56-6D-DC-AD">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Private.DataContractSerialization.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Private.DataContractSerialization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="32-FB-76-54-09-44-8B-46-21-64-A6-00-26-C3-00-01-EA-BC-48-A5">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Reflection.Emit.ILGeneration.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Reflection.Emit.ILGeneration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0C-DE-6C-7E-84-94-EF-81-0D-EB-20-C5-0A-77-23-20-4B-24-3B-4F">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Reflection.Emit.Lightweight.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Reflection.Emit.Lightweight</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1F-9B-4D-EE-82-67-50-96-05-89-D2-51-63-09-82-0B-0F-FD-4D-54">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Reflection.Primitives.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Reflection.Primitives</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AC-E4-33-96-E2-FF-11-04-DA-1B-64-8D-9E-A6-B1-6F-CB-1A-18-85">
+      <ModulePath>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.13\System.Runtime.Serialization.Formatters.dll</ModulePath>
+      <ModuleTime>2019-08-08T17:31:22Z</ModuleTime>
+      <ModuleName>System.Runtime.Serialization.Formatters</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4B-1D-BC-49-2E-34-DB-B5-8F-6E-E4-72-08-06-DE-91-35-15-51-4F">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\SpecFlowPlusRunner\FSharp.Core.dll</ModulePath>
+      <ModuleTime>2018-02-09T06:34:56Z</ModuleTime>
+      <ModuleName>FSharp.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F0-6A-33-3C-BC-BC-A2-60-17-99-68-EC-84-27-C8-46-40-53-9B-34">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:30Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F8-44-87-92-4E-D2-1D-A6-E4-2D-27-8E-FB-D8-C0-0F-4A-24-7C-12">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.Framework.Utils.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:32Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun.Framework.Utils</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="23-AA-CC-61-54-4F-23-33-0B-C6-F5-0D-4B-ED-3A-91-08-B2-0F-D2">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.Framework.Interfaces.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:30Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun.Framework.Interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BF-6D-7E-A4-73-5F-5E-0E-75-43-C8-27-90-A9-D5-D3-76-65-92-5E">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.Common.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:30Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="74-1D-89-B0-CB-55-7F-03-DD-77-FC-42-47-06-EA-D8-C7-63-EC-A8">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.Framework.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:40Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun.Framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D6-F7-07-23-10-28-AF-AF-FD-23-71-4A-C6-9D-69-30-97-FB-25-29">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2019-05-18T22:09:23.3366616Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F0-6A-33-3C-BC-BC-A2-60-17-99-68-EC-84-27-C8-46-40-53-9B-34">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:30Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8F-AE-3B-D6-B3-79-60-B9-55-72-8A-30-8C-9C-35-C7-08-F3-DC-67">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\HotelBooking.Models.dll</ModulePath>
+      <ModuleTime>2019-09-13T12:30:28.2217859Z</ModuleTime>
+      <ModuleName>HotelBooking.Models</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B7-1D-3F-3E-98-7D-D0-3B-33-21-8C-C9-79-1C-79-06-42-BB-F6-6D">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\netstandard\v4.0_2.0.0.0__cc7b13ffcd2ddd51\netstandard.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:16.794634Z</ModuleTime>
+      <ModuleName>netstandard</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E5-59-C6-FC-25-3D-4F-63-13-7A-12-DC-C3-3E-F3-A8-9F-49-A3-D6">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2019-07-25T01:29:56.1390545Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-E0-BD-F2-AE-67-38-A5-2F-5C-1F-85-A9-52-AF-64-66-A1-45-01">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecFlow.dll</ModulePath>
+      <ModuleTime>2018-08-20T04:49:12Z</ModuleTime>
+      <ModuleName>TechTalk.SpecFlow</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F8-44-87-92-4E-D2-1D-A6-E4-2D-27-8E-FB-D8-C0-0F-4A-24-7C-12">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.Framework.Utils.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:32Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun.Framework.Utils</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="23-AA-CC-61-54-4F-23-33-0B-C6-F5-0D-4B-ED-3A-91-08-B2-0F-D2">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.Framework.Interfaces.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:30Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun.Framework.Interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BF-6D-7E-A4-73-5F-5E-0E-75-43-C8-27-90-A9-D5-D3-76-65-92-5E">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.Common.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:30Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EF-46-F2-2E-6C-A8-3C-54-D3-F0-B4-80-7B-E3-ED-48-73-81-5D-89">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.Framework.Executor.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:32Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun.Framework.Executor</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F0-6A-33-3C-BC-BC-A2-60-17-99-68-EC-84-27-C8-46-40-53-9B-34">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecRun.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:30Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="28-E0-BD-F2-AE-67-38-A5-2F-5C-1F-85-A9-52-AF-64-66-A1-45-01">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\TechTalk.SpecFlow.dll</ModulePath>
+      <ModuleTime>2018-08-20T04:49:12Z</ModuleTime>
+      <ModuleName>TechTalk.SpecFlow</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2A-F4-1C-14-5D-7A-74-B3-03-8B-1D-2A-59-DC-B6-BE-1D-C8-EF-54">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:16.9508953Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F2-26-5B-FA-55-E9-5B-BC-DD-3A-32-56-2C-38-71-11-1A-8E-6D-32">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:17.0290261Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="37-21-08-55-8D-A6-74-36-27-EE-EC-5B-6F-E9-D4-43-1A-67-C2-C5">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\SpecRun.SpecFlowPlugin.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:54Z</ModuleTime>
+      <ModuleName>SpecRun.SpecFlowPlugin</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="8F-AE-3B-D6-B3-79-60-B9-55-72-8A-30-8C-9C-35-C7-08-F3-DC-67">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\HotelBooking.Models.dll</ModulePath>
+      <ModuleTime>2019-09-13T12:30:28.2217859Z</ModuleTime>
+      <ModuleName>HotelBooking.Models</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="09-B6-62-BE-25-F6-EA-16-B6-72-08-28-8D-C1-83-62-1B-C6-D4-68">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\HotelBooking.BusinessLogic.dll</ModulePath>
+      <ModuleTime>2019-09-13T19:20:12.0266153Z</ModuleTime>
+      <ModuleName>HotelBooking.BusinessLogic</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0C-FE-7E-8F-42-F0-9C-C6-C2-53-AE-9B-AB-A5-C4-73-A7-C5-5D-38">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\xunit.assert.dll</ModulePath>
+      <ModuleTime>2015-03-15T17:54:10Z</ModuleTime>
+      <ModuleName>xunit.assert</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F1-67-10-FE-CA-06-2B-45-18-C0-DB-E8-DB-07-A4-7E-5B-25-BD-51">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.1697369Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-3C-03-6D-B1-13-F3-EA-5F-93-9F-C0-AF-39-94-B1-A7-1E-AD-84">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll</ModulePath>
+      <ModuleTime>2019-06-13T02:15:03.9228984Z</ModuleTime>
+      <ModuleName>System.Runtime.Serialization</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="09-61-C1-AD-F8-B2-1F-FC-E2-68-2C-0B-39-0A-BF-03-BB-AF-01-9D">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:16.872764Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EE-1A-4E-2C-D5-B6-B2-AF-20-97-8A-06-9E-5B-88-6E-61-30-6C-DD">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\SpecFlowPlusRunner\TechTalk.SpecRun.Server.CommandClient.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:38Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun.Server.CommandClient</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="12-4A-B8-8C-F8-59-AA-B2-33-B7-5B-49-54-5E-99-ED-71-45-42-FD">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\SpecFlowPlusRunner\TechTalk.SpecRun.Server.Commands.dll</ModulePath>
+      <ModuleTime>2018-10-10T19:27:38Z</ModuleTime>
+      <ModuleName>TechTalk.SpecRun.Server.Commands</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="14-E1-10-0F-1C-66-71-6B-BA-82-CC-0E-92-BF-A7-54-B5-84-42-6D">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\SpecFlowPlusRunner\RazorEngine.dll</ModulePath>
+      <ModuleTime>2016-11-14T00:53:16Z</ModuleTime>
+      <ModuleName>RazorEngine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="13-EB-05-71-7C-B9-A8-6D-84-15-20-83-05-50-DE-E5-38-6B-E9-8F">
+      <ModulePath>C:\Users\Howard Deiner\source\repos\DotNetTesting_Unit_Integration_SpecFlow_with_coverage\HotelBooking_Clean\HotelBooking.Specs\bin\Debug\SpecFlowPlusRunner\System.Web.Razor.dll</ModulePath>
+      <ModuleTime>2013-10-02T00:54:24Z</ModuleTime>
+      <ModuleName>System.Web.Razor</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="47-6D-62-B8-35-D5-03-06-7D-C9-55-33-40-84-6A-5D-9E-47-10-4B">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:19.5760921Z</ModuleTime>
+      <ModuleName>Microsoft.CSharp</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C4-CF-0E-AD-FF-DE-5A-4E-25-AB-9B-DD-9F-D0-B8-CE-25-0B-57-E4">
+      <ModulePath>C:\Users\Howard Deiner\AppData\Local\Temp\RazorEngine_uu15dp23.m53\CompiledRazorTemplates.Dynamic.RazorEngine_29009fd7bb5c481eb251d36593c84ceb.dll</ModulePath>
+      <ModuleTime>2019-09-13T19:22:21.0855077Z</ModuleTime>
+      <ModuleName>CompiledRazorTemplates.Dynamic.RazorEngine_29009fd7bb5c481eb251d36593c84ceb</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>
