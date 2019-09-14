@@ -222,23 +222,36 @@ for (i = 0, l = charts.length; i < l; i++) {
 
 var assemblies = [
   {
-    "name": "HotelBooking.Specs",
+    "name": "HotelBooking.BusinessLogic",
     "classes": [
-      { "name": "HotelBooking.Specs.CreateBookingFeature", "rp": "HotelBooking.Specs_CreateBookingFeature.htm", "cl": 5, "ucl": 0, "cal": 5, "tl": 20, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "HotelBooking.Specs.CreateBookingSteps", "rp": "HotelBooking.Specs_CreateBookingSteps.htm", "cl": 19, "ucl": 0, "cal": 19, "tl": 54, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "HotelBooking.Specs.FindAvailableRoomFeature", "rp": "HotelBooking.Specs_FindAvailableRoomFeature.htm", "cl": 5, "ucl": 0, "cal": 5, "tl": 20, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "HotelBooking.Specs.FindAvailableRoomSteps", "rp": "HotelBooking.Specs_FindAvailableRoomSteps.htm", "cl": 19, "ucl": 0, "cal": 19, "tl": 57, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "HotelBooking.UnitTests.Fakes.FakeBookingRepository", "rp": "HotelBooking.Specs_FakeBookingRepository.htm", "cl": 19, "ucl": 9, "cal": 28, "tl": 60, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "HotelBooking.UnitTests.Fakes.FakeRoomRepository", "rp": "HotelBooking.Specs_FakeRoomRepository.htm", "cl": 11, "ucl": 12, "cal": 23, "tl": 50, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "HotelBooking.BusinessLogic.BookingManager", "rp": "HotelBooking.BusinessLogic_BookingManager.htm", "cl": 25, "ucl": 24, "cal": 49, "tl": 79, "ct": "LineCoverage", "mc": "-", "cb": 10, "tb": 30, "lch": [], "bch": [], "hc": [] },
+    ]},
+  {
+    "name": "HotelBooking.Models",
+    "classes": [
+      { "name": "HotelBooking.Models.Booking", "rp": "HotelBooking.Models_Booking.htm", "cl": 6, "ucl": 2, "cal": 8, "tl": 16, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "HotelBooking.Models.Customer", "rp": "HotelBooking.Models_Customer.htm", "cl": 0, "ucl": 4, "cal": 4, "tl": 12, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "HotelBooking.Models.DateManager", "rp": "HotelBooking.Models_DateManager.htm", "cl": 9, "ucl": 6, "cal": 15, "tl": 62, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "HotelBooking.Models.Room", "rp": "HotelBooking.Models_Room.htm", "cl": 2, "ucl": 1, "cal": 3, "tl": 11, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
     ]},
 ];
 
 var historicCoverageExecutionTimes = [];
 
 var riskHotspotMetrics = [
+      { "name": "Cyclomatic complexity", "explanationUrl": "https://en.wikipedia.org/wiki/Cyclomatic_complexity" },
+      { "name": "NPath complexity", "explanationUrl": "https://modess.io/npath-complexity-cyclomatic-complexity-explained" },
+      { "name": "Crap Score", "explanationUrl": "https://googletesting.blogspot.de/2011/02/this-code-is-crap.html" },
 ];
 
 var riskHotspots = [
+  {
+    "assembly": "HotelBooking.BusinessLogic", "class": "HotelBooking.BusinessLogic.BookingManager", "reportPath": "HotelBooking.BusinessLogic_BookingManager.htm", "methodName": "System.Collections.Generic.List`1<System.DateTime> HotelBooking.BusinessLogic.BookingManager::GetFullyOccupiedDates(System.DateTime,System.DateTime)", "methodShortName": "GetFullyOccupiedDates(...)", "fileIndex": 0, "line": 56,
+    "metrics": [
+      { "value": 5, "exceeded": false },
+      { "value": 16, "exceeded": false },
+      { "value": 30, "exceeded": true },
+    ]},
 ];
 
 var branchCoverageAvailable = true;

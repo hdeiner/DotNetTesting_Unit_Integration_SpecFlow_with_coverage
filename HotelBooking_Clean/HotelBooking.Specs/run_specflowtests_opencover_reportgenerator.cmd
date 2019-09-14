@@ -3,7 +3,7 @@
     -targetargs:"vstest bin\Debug\HotelBooking.Specs.dll"^
     -output:coverage.xml^
     -oldStyle^
-    -filter:"+[HotelBooking.Specs*]* -[HotelBooking.Specs.XYZZY*Test*]*"^
+    -filter:"+[HotelBooking*]* -[HotelBooking.Specs*]*"^
     -register:user
 
 ..\packages\ReportGenerator.4.2.19\tools\net47\ReportGenerator^
